@@ -1,11 +1,17 @@
-<% content_for :title do %>Foobar Kadigan<% end %>
-<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<% content_for :title do %>Acupuncture Website<% end %>
+<% content_for :description do %>Website of Guy Pretto<% end %>
 <section>
-  <img src="http://lorempixel.com/image_output/abstract-q-c-1177-599-1.jpg">
+  <img src="http://lorempixel.com/1170/599/abstract/1">
 </section>
 <section>
-  <div class="column">
-    <h3>Our newsletter is very informative. Please stay in touch.</h3>
+  <div class="form">
+    <h3 class="color">Welcome to my website. My name is Guy Pretto.<br> If you are interested in making an
+        appointment for acupuncture, chinese herbs, please  use  the Contact tab
+        at the top left corner of this page. Leave your full name, phone number, email, and a
+        short message.<br> My office is in San Francisco. The About tab, next to the Contact tab,
+        will reveal the office address, hours of business, fees, and brief
+        information about myself.<br>
+        Or you can leave your email, to the right, for a general mailing list.</h3>
   </div>
   <div class="column">
     <div class="form-centered">
@@ -13,7 +19,7 @@
         <%= f.error_notification %>
         <%= f.input :email, label: false, :placeholder => 'Enter your email address' %>
         <br/>
-        <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+        <%= f.button :submit, "Sign up for Mailing List", :class => "submit" %>
       <% end %>
     </div>
   </div>

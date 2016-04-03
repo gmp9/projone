@@ -1,11 +1,5 @@
 Rails
 == 
 
-Hopefully this project will include email.
+Hopefully this project will include email... Well it does now + a mailing list.
 
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

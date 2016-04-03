@@ -36,11 +36,17 @@
   @extend .button;
   @extend .radius;
   }
+.color {
+  color: midnightblue;
+  }
+.color1 {
+  color: sienna;
+  }  
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
   @include twelve-columns;
-  background-color: #eee;
+  background-color: wheat;
   }
 section {
   @extend .row;
