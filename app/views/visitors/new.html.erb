@@ -13,8 +13,8 @@
         information about myself.<br>
         Or you can leave your email, to the right, for a general mailing list.</h3>
   </div>
-  <div class="column">
-    <div class="form-centered">
+  <div class="form">
+    <div class="form">
       <%= simple_form_for @visitor do |f| %>
         <%= f.error_notification %>
         <%= f.input :email, label: false, :placeholder => 'Enter email address' %>
