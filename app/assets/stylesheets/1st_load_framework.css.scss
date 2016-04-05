@@ -21,6 +21,10 @@
   @extend .columns;
   @extend .text-center;
   }
+@mixin five-columns {
+  @extend .small-5;
+  @extend .columns;
+  }
 // create your own classes
 // to make views framework-neutral
 .column {
@@ -41,7 +45,10 @@
   }
 .color1 {
   color: sienna;
-  }  
+  }
+.newform {
+  @include five-columns;
+  }
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
